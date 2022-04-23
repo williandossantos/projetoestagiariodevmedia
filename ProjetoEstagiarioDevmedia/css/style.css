@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Tahoma, sans-serif;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+/*******CABECALHO-TOP**********/
+.cabecalho-top{
+    background-color: #f9f9f9;
+    padding: 10px 2%;
+    justify-content: space-between;
+}
+.cabecalho-top > div img{
+    width: 30x;
+    height: 30px;
+}
+.cabecalho-top > div a{
+    color: #e74c3c;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+.cabecalho-bg{
+    
+    min-height: 570px;
+    background-image: url("../img/london.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+
+.cabecalho-bg > .opacidade{
+    background-color: rgba(0,0,0, 0.5);
+    min-height: 570px;
+    background-size: contain;
+    padding-top: 150px;
+}
+.nav-container{
+    margin: 0 auto;
+    max-width: 800px;
+}
+.nav-container{background-color: #fff;}
+.nav-container nav {background-color: #000; }
+.menu > li{
+    width: 33.33%;
+    gap: 8px;
+    justify-content: center;
+    padding: 10px 0;
+}
+.menu > li img{
+    width: 30px;
+    height: 30px;
+}
+.menu > li a{
+    display: block;
+    color: #fff;
+}
+.ativo{background-color:#e74c3c;}
+.viagem{padding: 4% 2%;}
+.viagem h2{font-weight: lighter;}
+.viagem form > .form-wrap{
+    margin-top: 15px;
+}
+.viagem .form-container{
+    gap: 20px;
+    margin-top: 15px;
+}
+.viagem .form-wrap{width: 50%;}
+.viagem .form-wrap label,
+.viagem .form-wrap input{
+    display: block;
+    width: 100%;
+}
+.viagem .form-wrap label{margin-bottom: 5px;}
+.viagem .form-wrap input{padding: 10px;}
+.form-btn-viagem{
+    margin-top: 20px;
+}
+.form-btn-viagem button{
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.829);
+    color: #fff;
+    cursor: pointer;
+}
+.form-btn-viagem button:hover {
+    background-color:#000 ;
+    transition: all .5s;
+}
+
+/*******Main Titulo*********/
+main{
+    padding: 4% 2%;
+}
+
+.main-titulo h2{
+    margin:0 auto;
+    max-width: 900px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.main-titulo p{
+    margin:0 auto;
+    max-width: 900px;
+}
+.main-galeria{
+    max-width:900px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    
+    gap: 15px;
+}
+.img-wrap > div{
+    flex:1 1 300px;
+}
+.img-wrap > div > img{height: 100%;}
+/*.main-galeria > div{width: 450px;}*/
+.main-galeria > div .img{max-width: 100%;}
+.galeria-wrap{
+   width: 450px;
+   display: flex;
+   flex-wrap: wrap;  
+   gap: 15px;
+}
+.galeria-wrap > div{flex:1 1 165px;}
+.galeria-wrap > div img{
+    max-width: 100%;
+    display: block;
+}
+
+/***Explore Nature****/
+.explore-nature{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.nature-titulo,
+.explore-nature .card{
+
+    margin-top: 40px;
+}
+.explore-nature > section{
+    display: flex;
+    gap: 15px;
+}
+.card{
+    background-color:rgb(240, 240, 240);
+}
+.card-items{
+    flex: 1 1 200px;
+}
+.card-items > img {
+    max-width: 100%;
+    display: block;
+}
+.card-texto{margin-top: 15px; padding: 0 2%;}
+.card-texto h2,
+.card-texto p{padding: 15px 0;}
+.card-texto button{
+    width: 180px;
+    padding: 12px;
+    text-align: left;
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(205, 205, 214);
+}
+
+/*********BEST OFFERS***********/
+.best-offers{
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 12px;
+    color: #fff;
+}
+.best-offers .main-titulo {padding: 20px 0;}
+.best-offers form{margin-bottom: 20px;}
+
+.best-offers form label,
+.best-offers form input{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.best-offers form input{
+    padding: 5px;
+}
+.best-offers button{
+    padding: 10px 15px;
+    background-color: #e74c3c;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+}
+/**********CONTACT***********/
+
+.contact{
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+}
+.contact .dados{margin-top: 15px;}
+.dados-wrap{margin-bottom: 7px;}
+.dados-wrap img{
+    width: 15px;
+    height: 15px;
+    margin-right: 7px;
+}
+.contact form{margin-top: 20px;}
+.contact form div{
+    
+}
+.contact form div input,
+.contact form div textarea{
+    display: block;
+    resize: none;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.contact button{
+    width: 200px;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #000;
+    outline: none;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+/********FOOTER********/
+
+footer{
+    text-align: center;
+}
+footer h3{
+    font-weight: lighter;
+}
+footer .social {
+    padding: 20px 0;
+}
+footer .social img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+footer p{
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 520px) {
+    
+    /*******BACKGROUND TOO*********/
+    .cabecalho-bg{
+    
+        min-height: inherit;
+        background-image: none;
+        background-repeat: inherit;
+        background-position: inherit;
+        object-fit: inherit;
+    }
+
+    .cabecalho-bg > .opacidade{
+        
+        background-color: inherit;
+        min-height:auto;
+        background-size: inherit;
+        padding-top: inherit;
+    }
+
+    /*******Explore nature*********/
+    .explore-nature > section{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    /*MAIN GALERIA*/
+    .galeria-wrap > div{
+        flex:1 1 100px;
+        margin:  0 auto;
+    }
+    .main-galeria{flex-wrap: wrap;}
+    .main-galeria > div{width:100%;}
+
+}
+
